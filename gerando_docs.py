@@ -7,7 +7,7 @@ class CriandoUmaDocumentacaoDoPowerBI():
 
     def __init__(self):
         # Source
-        self.df = 'doc_bi_contabil.xlsx'
+        self.df = 'doc.xlsx'
         # Gerando dataframes
         try:
             self.df_medidas = pd.read_excel(self.df, sheet_name=0)
