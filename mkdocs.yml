@@ -1,0 +1,23 @@
+extra_css:
+- stylesheets/custom.css
+nav:
+- Home: index.md
+- Arquitetura:
+  - medidas.md
+  - relationship.md
+- Tabelas:
+  - tabela_d_calendario.md
+  - tabela_d_centro_de_custo.md
+  - tabela_d_contas_grupo.md
+  - tabela_d_contas_subgrupo_1.md
+  - tabela_d_contas_subgrupo_2.md
+  - tabela_d_contas_subgrupo_3.md
+  - tabela_d_empresas.md
+  - tabela_d_estrutura_dre.md
+  - tabela_d_plano_de_contas.md
+  - tabela_f_contabil.md
+plugins:
+- search
+- mermaid2
+- mkdocstrings
+site_name: BI Contábil
