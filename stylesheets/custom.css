@@ -1,0 +1,67 @@
+/* Arquivo custom.css */
+
+/* Formatando barra principal */
+.navbar.fixed-top.navbar-expand-lg.navbar-dark.bg-primary{
+    background-color: rgba(var(--bs-primary-rgb),var(--bs-bg-opacity))!important;
+    background-image: linear-gradient(#1F3949,#172B37 60%,#172B37);
+    position: sticky;
+}
+
+/* Formatando Título da barra principal*/
+.navbar-brand{
+    margin-left: -160px;
+}
+
+/* posicionando elemento home e dataframe */
+.nav.navbar-nav{
+    margin-left: 40px;
+
+}
+
+/* Formatando fundo da lista dos menus (dataframes)*/
+a.dropdown-item.active{
+    background: #172B37;
+}
+
+/* Formatando menu lateral*/
+.nav-link.active{
+    color: #1F3949
+}
+
+
+/* formatando margens do MKDocs */
+.row{
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-left: -180px;
+    margin-right: -180px;
+}
+
+.col-md-3{
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+    flex: 0 0 auto;
+    width: 14%;
+}
+
+
+
+/* Estilos para tabelas */
+table {
+    width: 100%; /* Define a largura da tabela como 100% */
+    border-collapse: collapse; /* Colapsa as bordas das células */
+    margin-bottom: 20px; /* Margem inferior para separar as tabelas */
+}
+
+/* Estilos para células da tabela */
+th, td {
+    border: 1px solid #ddd; /* Borda fina cinza para células */
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: left; /* Alinhamento do texto à esquerda */
+}
+
+
+
+
